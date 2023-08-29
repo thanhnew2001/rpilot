@@ -1,0 +1,88 @@
+*{
+    font-size: 13px;
+}
+
+/* .card-bg {
+    background-color: rgb(211, 150, 109);
+  } */
+
+.color-primary{
+    color: red !important;
+}
+
+#main_table{
+    background-color: rgb(211, 150, 109);
+}
+
+#newchat_button, #upload_button{
+    width: 95%;
+    height: 30px;
+    background-color:red;
+    color: white;
+}
+
+#reset_app_button, #reset_data_button{
+    width: 95%;
+    height: 30px;
+    background-color: #49596f;
+    border-color: #152335;
+    color: white;
+}
+
+#main_table tbody tr {
+    height: 30px; /* Adjust this value as needed */
+    overflow: hidden; /* Hide overflow content if cells have multiple lines */
+    color: red;
+  }
+  
+
+
+.logo-text{
+    font-size: 40px;
+}
+
+.sub-text{
+    font-size: 14px;
+    color:  red;
+}
+
+.button_link{
+    text-transform:lowercase;
+    font-style: italic;
+    font-size: 13px;
+    color: white;
+    border-color: white;
+}
+
+.button_link::first-letter {
+    text-transform: uppercase;
+}
+
+
+.taipy-tree li{
+    color:white;
+    font-style: italic;
+    padding: 5px;
+    user-select: text !important;
+    cursor: pointer; 
+}
+
+#suggested_prompts{
+    user-select: text !important;
+    cursor: pointer; 
+    width: 70%;
+    font-style: italic;
+    font-size: 13px;
+
+}
+
+#more_button{
+    float: left;
+    right:0px;
+}
+
+#input_response{
+    overflow-y: scroll;
+    height: 300px;
+    font-family: "Courier New", monospace;
+}
