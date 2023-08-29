@@ -39,6 +39,7 @@ final_result = ""
 _blank = "Here is result"
 
 def modify_data(state) -> None:
+    state.past_prompts += [state.user_input]
     state.final_result = ""
     for _ in range(5):
         generate_more(state)
